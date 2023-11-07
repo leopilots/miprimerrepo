@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ElBananero.com</title>
+    <title>ElBananero.com 👤</title>
     <!-- css -->
     <link rel="stylesheet" type="" href="css/styles.css">
+    <style>
+        .t-hover:hover {
+            transition: 0.5s all;
+            background-color: #f00;
+        }
+    </style>
 </head>  
 <body>
     <!-- HTML -->
@@ -40,30 +46,60 @@
             <th>1st Partial</th>
         </tr>
         <tr>
-            <td>Leonardo García</td>
+            <td class="t-hover">Leonardo García</td>
             <td>5to B</td>
             <td>Italy</td>
         </tr>
         <tr>
-            <td>José Valencia</td>
+            <td class="t-hover">Samuel Dozil</td>
             <td>5to B</td>
             <td>Bolivia</td>
         </tr>
         <tr>
-            <td>Boris Berrios</td>
+            <td class="t-hover">Boris Berrios</td>
             <td>5to B</td>
             <td>Bolivia</td>
         </tr>
         <tr>
-            <td>Regina Vargas</td>
+            <td class="t-hover">Regina Vargas</td>
             <td>5to B</td>
             <td>Spain</td>
         </tr>
         <tr>
-            <td>Marcos Bonnuci</td>
+            <td class="t-hover">Marcos Bonnuci</td>
             <td>6to B</td>
             <td>Italy</td>
         </tr>
     </table>
+    <!-- video etiqueta "a" -->
+    1.- <a href="https://www.youtube.com/watch?v=JhJxtDopeU0">go at Video 1</a> <br>
+    2.- <a href="https://www.youtube.com/watch?v=mHONNcZbwDY" target="_blank">go at Video 2</a> <br>
+    3.- <a href="https://www.youtube.com/watch?v=mHONNcZbwDY" target="top">go at Video 3</a> <br>
+    4.- <a href="https://www.youtube.com/watch?v=mHONNcZbwDY" target="new">go at Video 4</a>
+
+    <form>
+        <label>Nombre</label>
+        <input type="text"><br>
+        <label>Apellido</label>
+        <input type="text"><br>
+        <label>Edad</label>
+        <input type="number"><br>
+        <select>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="La Paz">La Paz</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Oruro">Oruro</option>
+            <option value="Beni">Beni</option>
+            <option value="Tarija">Tarija</option>
+            <option value="Chuquisaca">Chuquisaca</option>
+            <option value="Pando">Pando</option>
+        </select> <br>
+        <label>Habitantes</label>
+        <input type="number"> <br>
+        <label>Contraseña</label>
+        <input type="password"> <br>
+        <label>Detalle:</label> <br>
+        <textarea></textarea>
+    </form>
 </body>
 </html>
